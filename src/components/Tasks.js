@@ -8,8 +8,9 @@ export const Tasks = () => {
 const [todo, setTodo] = useState([]);
 
 const addTodo = todos => {
-    setTodo([...todos, {id: uuidv4(), task: todo, completed:false, isEditing: false}])
-    console.log(todos);
+    
+    setTodo([...todo, {id:uuidv4(), task:todo, completed:false, isEditing:false}])
+    console.log(todo);
 }
 
   return (
