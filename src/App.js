@@ -1,10 +1,17 @@
 import React from 'react';
+import { Header } from './components/Header'
+import { Subtitle } from './components/Subtitle';
+import { Tasks } from './components/Tasks';
 import './App.css';
 
 function App() {
   return (
     <div>
-        <h1>Hello World</h1>
+        <Header />
+        <div>
+          <Subtitle />
+          <Tasks />
+        </div>
     </div>
   );
 }

@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+/* border: 1px solid black; */
+    margin: 1rem 0;
+}
+
+.header {
+    text-align: center;
+    margin: 0 20rem;
+}
+
+.header h1 {
+    font-family: 'Raleway','Times New Roman', Times, serif;
+    color: #141414;
+    text-decoration: underline;
+}
+
+.subtitle {
+    color: #141414;
+    margin: auto;
+    margin: 0 20rem;
+}
+
+.subtitle h4 {
+    text-align: left;
+}
+
+.tasks {
+    text-align: center;
+    margin: 0 20rem;
+}
+
+.tasks ul {
+    list-style: none;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+}
+
+.tasks ul li {
+    text-align: center;
+    color: #141414;
+    text-decoration: none;
+}
+
